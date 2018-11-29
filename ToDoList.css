@@ -1,0 +1,18 @@
+body{
+    background: pink;
+}
+div{
+    background: purple;
+}
+p{
+    color: orange;
+}
+li{
+    border: 2px dashed rebeccapurple;
+}
+#special {
+    color: greenyellow;
+}
+.highlight{
+    text-decoration: line-through;
+}

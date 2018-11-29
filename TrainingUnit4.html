@@ -1,0 +1,136 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>
+            This is a training sheet
+        </title>
+    </head>
+    <body>
+        <h3>Colors</h3>
+        <table border="1">
+            <tr>
+                <td>Red</td>
+                <td>Orange</td>
+            </tr>
+            <tr>
+                <td>Green</td>
+                <td>Yellow</td>
+            </tr>
+        </table>
+
+        <h3>Name and Age</h3>
+        <table border="1">
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+            </tr>
+            <tr>
+                <td>Erikas</td>
+                <td>25</td>
+            </tr>
+            <tr>
+                <td>Helo</td>
+                <td>22</td>
+            </tr>
+        </table>
+
+        <h3>Here is another way to make a table</h3>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Breed</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Voldi</td>
+                    <td>20</td>
+                    <td>Bunny</td>
+                </tr>
+                <tr>
+                    <td>Marcel</td>
+                    <td>2</td>
+                    <td>Bear</td>
+                </tr>
+                <tr>
+                    <td>Ralf</td>
+                    <td>3</td>
+                    <td>Bear</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h3>The Pokemon Exercise</h3>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Image</th>
+                    <th>Name</th>
+                    <th>Type</th>
+                    <th>Evoles To</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><img src="http://img4.wikia.nocookie.net/__cb20140328190757/pokemon/images/thumb/2/21/001Bulbasaur.png/200px-001Bulbasaur.png"></td>
+                    <td>Bulbasaur</td>
+                    <td>Grass/Poison</td>
+                    <td><a href="http://pokemon.wikia.com/wiki/Ivysaur">Ivysaur</a></td>
+                </tr>
+                <tr>
+                    <td><img src="http://img4.wikia.nocookie.net/__cb20140724195345/pokemon/images/thumb/7/73/004Charmander.png/200px-004Charmander.png"></td>
+                    <td>Charmander</td>
+                    <td>Fire</td>
+                    <td><a href="http://pokemon.wikia.com/wiki/Charmeleon">Charmeleon</a></td>
+                </tr>
+                <tr>
+                    <td><img src="http://img1.wikia.nocookie.net/__cb20140328191525/pokemon/images/thumb/3/39/007Squirtle.png/200px-007Squirtle.png"></td>
+                    <td>Squirtle</td>
+                    <td>Water</td>
+                    <td><a href="http://pokemon.wikia.com/wiki/Wartortle">Warlortle</a></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h3>Forms</h3>
+        <h4>Sign In</h4>
+        <p>This is not a form</p>
+            <input type="text" placeholder="username">
+            <input type="password" placeholder="password">
+            <input type="submit">
+
+        <!-- Action - where the form send data to -->
+        <!-- Method - what HTTP method (get/post) -->
+
+        <p>Here is a form</p>
+
+        <form action="http://instagram.com" method="GET">
+            <input name="username" type="text" placeholder="username">
+            <input name="password" type="password" placeholder="password">
+            <input type="submit">
+        </form>
+
+        <p>Form with labels</p>
+        <form>
+            <label>
+                Username:
+                <input type="text" placeholder="username">
+            </label>
+            <label>
+                Password:
+                <input type="password" placeholder="password">
+            </label>
+        </form>
+
+        <p>Form with labels part 2</p>
+        <form>
+            <label for="username">Email:</label>
+            <input id="username" type="email" placeholder="email" required>
+            <label for="password">Password:</label>
+            <input id="password" type="password" placeholder="password" required>
+            <input type="submit">
+        </form>
+    </body>
+</html>

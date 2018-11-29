@@ -1,0 +1,46 @@
+/*Use Online color picker for hexidecimal
+For RGB, the max of each element is 255
+RGBA like RGB but with a 4th element to add transparency - range from 0 to 1 - 0 being fully transparent and 1 full color */
+
+h1 {
+    color: #F400DD;
+    border-color: yellow;
+    border-width: 5px;
+    border-style: solid;
+    /*see shortcut below */ 
+}
+li {
+    color: rgb(0,255,0);
+}
+h4 {
+    background: rgb(255,100,80);
+}
+/* Background examples:
+Color
+body {
+    background: pink;
+}
+Image
+body {
+    background: url(https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&h=350);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+*/
+
+/* Border
+Made with
+- width
+- color
+- style
+border: 5px solid yellow;
+*/
+
+body {
+    background: cadetblue;
+}
+
+/* An ID can select one element to style on its own, cannot be repeated unless the ID name is changed
+id="highlight" in css #highlight{etc.}
+A class is like an ID but can select several elements
+class="xx" in css: .xx{etc.}

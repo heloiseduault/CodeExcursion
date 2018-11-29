@@ -1,0 +1,23 @@
+/*Star*/
+*{
+    border: 1px solid lightcoral;
+}
+/*Decendant Selector*/
+li a{
+    color: lightpink;
+}
+
+/*Adjacent Selector */
+h4 + ul {
+    border: 4px solid pink;
+}
+
+/* Attribute Selector*/
+a[href="http://www.google.com"] {
+    background: lavender;
+}
+
+/*nth of type*/
+ul:nth-of-type(3){
+    background: lavenderblush;
+}
